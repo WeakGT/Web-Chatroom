@@ -1,0 +1,29 @@
+.groups {
+  margin: 0 5px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.groups ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.groups li {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #c7e0e9;
+  margin: 5px;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.groups li:hover {
+  background-color: #a9cdd9;
+  color: white;
+  transform: scale(1.05);
+}

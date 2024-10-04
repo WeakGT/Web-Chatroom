@@ -1,0 +1,63 @@
+.search {
+  margin: 20px;
+  margin-left: 10px;
+}
+
+.search input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.messages {
+  height: 60vh;
+  overflow: scroll;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.message.self {
+  flex-direction: row-reverse;
+}
+
+.user-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.message-text {
+  max-width: 60%;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.message-text.self {
+  color: white;
+  background-color: #2875f1;
+}
+
+.message-text p {
+  max-width: max-content;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 0 10px;
+}
+
+.chat-input-container {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
